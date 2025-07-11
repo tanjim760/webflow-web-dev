@@ -4,7 +4,7 @@
 }
 
 
-main {
+main, header, footer {
     max-width: 1440px;
 }
 
@@ -93,3 +93,31 @@ nav li, nav a {
 }
 
 /* Action Section Styles */
+
+.action-section {
+    display: flex;
+    margin: 116px auto;
+    max-width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.action-left p {
+    margin-bottom: 23px;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-desc {
+    font-size: 24px;
+    color: #25243269;
+}
+
+.action-section img {
+    border-radius: 48px;
+}
