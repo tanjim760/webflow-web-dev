@@ -5,9 +5,12 @@
 
 
 main, header, footer {
-    max-width: 1440px;
+    max-width: 100vw;
 }
 
+body {
+    background-color: #4d47ff1f;
+}
 /* Custom Fonts */
 
 
@@ -47,6 +50,7 @@ main, header, footer {
 
 header {
     margin: 0 auto;
+    max-width: 1500px;
     height: 698px;
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
@@ -121,3 +125,105 @@ nav li, nav a {
 .action-section img {
     border-radius: 48px;
 }
+
+/* Productive User Section Styles */
+
+.user-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    border-radius: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centered-title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.data-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.data {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+}
+
+.data span {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+/* Feedback Section Styles */
+
+.feedback-section {
+    max-width: 1140px;
+    margin: 137px auto;
+    text-align: center;
+
+}
+
+.feedback-section-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.feedback-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.feedback-box {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 366px;
+    padding: 25px;
+    border-radius: 24px;
+    
+}
+
+.feedback-star {
+    margin-bottom: 24px;
+}
+
+.feedback-title {
+    color: rgba(30, 30, 30, 1);
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 8px;
+}
+
+.feedback-desc {
+    margin-bottom: 24px;
+}
+
+.feedback-avatar {
+    border-radius: 50%;
+}
+
+.user-avatar-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-details {
+    color: rgba(117, 117, 117, 1);
+}
+
+.user-details span {
+    display: block;
+    color: rgba(179, 179, 179, 1);
+    font-size: 14px;
+}
+
