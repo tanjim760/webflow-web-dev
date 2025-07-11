@@ -35,7 +35,7 @@ body {
     background-color: #4E47FF;
     color: white;
     font-size: 16px;
-    font-weight: bold;
+    font-weight:500;
     border: none;
     border-radius: 8px;
 }
@@ -227,3 +227,34 @@ nav li, nav a {
     font-size: 14px;
 }
 
+/* Get Started Free Section Styles */
+
+.free-trial-section {
+    max-width: 1140px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+
+.free-trial-section button {
+    display: block;
+    margin: 20px auto;
+}
+
+.free-trial-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.free-trial-subtitle {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.free-trial-section img {
+    border-radius: 48px;
+}
