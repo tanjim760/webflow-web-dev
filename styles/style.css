@@ -258,3 +258,59 @@ nav li, nav a {
 .free-trial-section img {
     border-radius: 48px;
 }
+
+/* Let's Get in Touch Section Styles */
+
+.form-section {
+    max-width: 1140px;
+    min-height: 632px;
+    margin: 92px auto;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+form button {
+    display: block;
+}
+
+.form-title {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+form {
+    width: 497px;
+    height: 490px;
+}
+
+form input {
+    width: 98%;
+    margin-top: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form textarea {
+    width: 98%;
+    height: 30%;
+    margin-top: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form button {
+    width: 517px;
+    margin-top: 10px;
+}
